@@ -5,7 +5,7 @@
         <%
             int age = 12;
         %>
-
+ 
 
     </body>
 </html>
