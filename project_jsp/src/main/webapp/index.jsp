@@ -2,22 +2,25 @@
     <body>
         <h2>Hello Palko!</h2>
         <%@page import="java.util.*" %>
-        
+
         <%!
-        String message(){
-            return "Marketingove odd.<br/>";
-            }
+            String message(){
+                return "Marketingove odd.<br/>";
+                }
+        %>
+
+        <%= message() %>
+        
+        <%
+             int year = 2018; 
         %>
         
-        <%= message() %>
+        <%= "<b> year </b></br>"%>
         
         <% 
             int age = 12;
             out.println("Hi, i am " + age + "years old");
-            
-            
-            
-            
+
             Random rand = new Random();
             for (int i=0; i <10; i++){
                 int n = rand.nextInt(10);
@@ -29,7 +32,6 @@
                 out.println("<br/>" + i + n);
             }
         %>
-
 
     </body>
 </html>
