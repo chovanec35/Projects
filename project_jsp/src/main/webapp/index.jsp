@@ -7,8 +7,8 @@
             out.println("Hi, i am " + age + "years old");
             
             for (int i=0; i <10; i++){
-                if (i == 2){
-                    out.println("<br/> Dva");
+                if (i == 3){
+                    out.println("<br/> tri");
                 }
                 else
                 out.println("<br/>" + i);
