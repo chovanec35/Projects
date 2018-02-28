@@ -15,7 +15,7 @@
              int year = 2018; 
         %>
         
-        <%= "<b> year </b></br>"%>
+        <%= "<b> Year: " + year + "</b></br>"%>
         
         <% 
             int age = 12;
