@@ -15,7 +15,7 @@
         <h1>Login</h1>
         <a href="controller?page=index">Index</a>
         <a href="controller?page=about">About</a>
-        
+         
         <form action="submit.jsp" method="get">
             Name <input type="text" name="loginName" value=""/><br>
         Password <input type="password" name="possword" value=""/><br>
