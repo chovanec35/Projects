@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login</title>
+        <title>Registration</title>
     </head>
     <body>
-        <h1>Login</h1>
+        <h1>Registration</h1>
         <a href="controller?page=index">Index</a>
         <a href="controller?page=about">About</a>
 
