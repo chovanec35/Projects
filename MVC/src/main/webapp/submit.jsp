@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 28.2.2018, 16:04:04
+    Document   : submit
+    Created on : 1.3.2018, 14:14:53
     Author     : jchovanec
 --%>
 
@@ -12,8 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Homepage</h1>
-        <a href="controller?page=login">Login</a>
-        <a href="controller?page=about">About</a>
-    </body> 
+        <h1>You are sign in</h1>
+        <form action="index.jsp">
+        <input type="submit" value="Logout">
+        </form>
+    </body>
 </html>
