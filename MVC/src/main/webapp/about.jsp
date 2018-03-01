@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Something about us...</h1>
-        <a href="controller?page=index">Index</a><br/>
+        <a href="controller?page=index">Index</a>
         <a href="controller?page=login">Login</a>
         
     </body>
