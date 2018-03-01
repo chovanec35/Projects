@@ -12,9 +12,9 @@
         <title>About</title>
     </head>
     <body>
-        <h1>Something about us...</h1>
+        <h1>Register</h1>
         <a href="controller?page=index">Index</a>
-        <a href="controller?page=login">Login</a>
+        <a href="controller?page=register">Register</a>
         
     </body>
 </html>

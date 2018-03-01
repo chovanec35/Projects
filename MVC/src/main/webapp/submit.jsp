@@ -12,7 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>You are sign in</h1>
+        <%= request.getParameter("loginName")%> 
+        <h1> <%= request.getParameter("loginName")%>, welcome to the jungle</h1>
+        <h2>Congratulation, you are <%= request.getParameter("sex") %></h2>
         <form action="index.jsp">
         <input type="submit" value="Logout">
         </form>

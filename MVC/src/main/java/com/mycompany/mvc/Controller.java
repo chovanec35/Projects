@@ -60,8 +60,8 @@ public class Controller extends HttpServlet {
         String param = request.getParameter("page");
         System.out.println(param);
         
-        if(param.equals("login")){
-            page = "/login.jsp";
+        if(param.equals("register")){
+            page = "/register.jsp";
         }else if (param.equals("about")){
             page = "/about.jsp";
         }else if (param.equals("index")){

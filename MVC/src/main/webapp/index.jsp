@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Homepage</h1>
-        <a href="controller?page=login">Login</a>
+        <a href="controller?page=register">Register</a>
         <a href="controller?page=about">About</a>
     </body> 
 </html>
