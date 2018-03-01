@@ -1,6 +1,6 @@
 <%-- 
-    Document   : login
-    Created on : 28.2.2018, 14:05:14
+    Document   : notfound
+    Created on : 1.3.2018, 9:34:30
     Author     : jchovanec
 --%>
 
@@ -9,12 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h1>Login</h1>
-        <a href="controller?page=index">Index</a><br/>
-        <a href="controller?page=about">About</a>
-        
+        <h1>Doesn't exist"!!!</h1>
     </body>
 </html>

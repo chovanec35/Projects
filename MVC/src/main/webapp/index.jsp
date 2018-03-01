@@ -14,7 +14,6 @@
     <body>
         <h1>Hello Jozef!</h1>
         <a href="controller?page=login">Login</a><br/>
-        <a href="controller?page=login">About</a>
+        <a href="controller?page=about">About</a>
     </body> 
-    </body>
 </html>

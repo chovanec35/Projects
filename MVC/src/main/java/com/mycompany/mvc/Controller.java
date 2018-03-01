@@ -55,11 +55,23 @@ public class Controller extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
+        String page = null;
+        String param = request.getParameter("page");
+        System.out.println(param);
+        
+        if(param.equals("login")){
+            page = "/login.jsp";
+        }else if (param.equals("about")){
+            page = "/about.jsp";
+        }else if (param.equals("index")){
+            page = "/index.jsp";
+        }else{
+            page = "/notfound.jsp";
+        }
+        getServletContext().getRequestDispatcher(page).forward(request, response);
     }
-
+    
     /**
      * Handles the HTTP <code>POST</code> method.
      *
@@ -73,6 +85,7 @@ public class Controller extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
     }
+    
 
     /**
      * Returns a short description of the servlet.
