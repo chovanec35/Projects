@@ -58,7 +58,6 @@ public class Controller extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
         String page = null;
         String param = request.getParameter("page");
-        System.out.println(param);
         
         if(param.equals("register")){
             page = "/register.jsp";
